@@ -2,6 +2,8 @@
 /* 0. setup (overwrite [Pure](http://purecss.io/)) */
 /*-------------------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round%3Aregular&#038;subset=latin&#038;ver=3.8);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
 body {
   width: 100%;
@@ -11,21 +13,30 @@ body {
   text-align: center;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: #555;
+  color: #444;
 }
 
-h1 {font-size: 2em; margin: .7em 0;}
-h2 {font-size: 1.7em; margin: .7em 0;}
-h3 {font-size: 1.4em; margin: .9em 0;}
-h4 {font-size: 1.2em; margin: .9em 0;}
-h5 {font-size: 1em; margin: 1.3em 0;}
-h6 {font-size: .8em; margin: 1.3em 0;}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4em;
+  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+h1 {font-size: 2em; margin: .7em 0}
+h2 {font-size: 1.7em; margin: .8em 0}
+h3 {font-size: 1.4em; margin: .9em 0}
+h4 {font-size: 1.2em; margin: 1.1em 0}
+h5 {font-size: 1em; margin: 1.2em 0}
+h6 {font-size: .8em; margin: 1.3em 0}
 
 a, a:visited, a:hover {
-  color: #222; /* block-background-text-normal */
+  color: #0074a6; /* block-background-text-normal */
   text-decoration: none;
 }
 
+ul {
+  margin: 3px 0 7px 0;
+}
 
 /*-------------------------------------------------------------------------------------------*/
 /* 1. biture: common attribute */
@@ -53,8 +64,8 @@ a, a:visited, a:hover {
 }
 
 blockquote {
-  margin: 0 0 0 10px;
-  padding: 0px 0 0px 20px;
+  margin: 0 0 25px 5px;
+  padding: 0 0 0 25px;
   border-left: 3px solid #ccc;
 }
 blockquote footer {
@@ -168,10 +179,19 @@ ul.nav-menu li:hover ul.sub-menu {
   box-shadow: #258fb8 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
   background: #000;
   color: #23dbdb;
+  text-shadow: none;
+}
+
+#main-content p {
+  margin: 15px 0;
+}
+#main-content p + p {
+  margin: 25px 0 15px 0;
 }
 
 article {
   margin: 0 0 45px 0;
+  text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
 
 .article-meta .date {
@@ -199,6 +219,10 @@ article {
 }
 .article-comment {
   padding: 30px 0 0 0;
+}
+
+.article-title a, .article-title a:visited {
+  color: #222;
 }
 
 /* Youtube, other video container */
@@ -232,6 +256,7 @@ article {
   color: #ccc;
   line-height: 22.400000000000002px;
   font-size: 14px;
+  text-shadow: none;
 }
 .article-entry pre a,
 .article-entry .highlight a{
@@ -247,7 +272,8 @@ article {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eee;
+  background: #ddd;
+  font-size: 14px;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -426,17 +452,8 @@ pre .javascript .function {
   font-size: 14px;
 }
 .surf p {
-  margin: 0;
+  margin: 7px 0;
 }
 .surf ul {
-  margin: 7px 0 7px 0;
-}
-.surf li ul,
-.surf h1 + ul,
-.surf h2 + ul,
-.surf h3 + ul,
-.surf h4 + ul,
-.surf h5 + ul,
-.surf h6 + ul {
-  margin: 0px 0 7px 0;
+  margin: 0 0 7px 0;
 }
