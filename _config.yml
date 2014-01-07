@@ -1,32 +1,23 @@
+# Header
 menu:
   home: /
-  archive: /archive
-  submenu:
+  dropdown menu:
     google: //google.com/
     yahoo:  //yahoo.com/
 
 extmenu:
-  github: //github.com/
+  github: //github.com/kywk/
   hexo: //zespia.tw/hexo/
   theme:
-    Pithiness:  //github.com/okoala/hexo-theme-pithiness
-    Phase:  //github.com/tommy351/hexo-theme-phase
-    Collect:  //github.com/beforeload/hexo-theme-collect
+    biture: //github.com/kywk/hexo-theme-biture
+    landscape: //github.com/tommy351/hexo-theme-landscape
+    light: //github.com/tommy351/hexo-theme-light
 
+# Content
 excerpt_link: Read More
-
-addthis:
-  enable: true
-  pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
 
 fancybox: true
 
+# Miscellaneous
 google_analytics:
 rss:
-
-## hexi only
-tag_flickr: true
