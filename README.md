@@ -10,7 +10,7 @@ Preview: [live demo](http://kywk.github.io/hexo-theme-biture) / [kywk.life](http
 ### Install
 
 ``` bash
-$ git https://github.com/kywk/hexo-theme-biture.git themes/biture
+$ git clone https://github.com/kywk/hexo-theme-biture.git themes/biture
 ```
 
 ### Enable
