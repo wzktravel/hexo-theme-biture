@@ -3,6 +3,33 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <%- partial('google_analytics') %>
 
+<!-- Responsive menu -->
+<script>
+$(document).ready(function() {
+  $("#menu-toggle").click(function(event) {
+    event.preventDefault();
+    if ($(this).hasClass("isShow")) {
+      $("#header").css({position: "fixed"});
+      $("ul.nav-menu").hide();
+      $(this).removeClass("isShow");
+    } else {
+      $("#header").css({position: "static"});
+      $("ul.nav-menu").show();
+      $("html, body").scrollTop(0);
+      $(this).addClass("isShow");
+    }
+    return false;
+  });
+
+  $(window).resize(function() {
+    if ($(window).width() > 700) {
+      $("ul.nav-menu").removeAttr('style');
+    }
+  });
+
+});
+</script>
+
 
 <% if (config.disqus_shortname){ %>
 <script type="text/javascript">

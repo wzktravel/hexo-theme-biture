@@ -97,13 +97,12 @@ blockquote footer {
 
 
 /*-------------------------------------------------------------------------------------------*/
-/* 2. biture: Header */
+/* 2. biture: Header & Navigate menu */
 /*-------------------------------------------------------------------------------------------*/
 #header {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 10;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -180,6 +179,51 @@ ul.nav-menu li:hover ul.sub-menu {
   display:block;
 }
 
+ul.ext-menu {
+  position: relative;
+  top: 3px;
+  float: right;
+}
+#menu-toggle {
+  display: none;
+  float: right;
+}
+
+/* Responsive Nav Manu */
+@media all and (max-width: 700px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  ul.nav-menu {
+    float: none;
+    display: none;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  ul.nav-menu li {
+    display: block;
+    margin: 15px 0 15px 30px;
+    padding: 0;
+  }
+  ul.nav-menu li ul.sub-menu {
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.nav-menu ul.sub-menu li,
+  ul.sub-menu > li:first-child {
+    border: none;
+    margin: 10px 0 10px 30px;
+    padding: 0;
+  }
+  ul.sub-menu li:hover {
+    background-color: #333 !important;
+  }
+}
+
 .tagcloud a {
   padding: 3px 5px;
   display: inline-block;
@@ -214,6 +258,13 @@ ul.nav-menu li:hover ul.sub-menu {
   margin: -15px 0 25px 0;
 }
 
+pre + pre, pre + figure, pre + blockquote,
+figure + pre, figure + figure, figure + blockquote,
+blockquote + pre, blockquote + figure, blockquote + blockquote
+{
+  margin: 15px 0;
+}
+
 article {
   margin: 0 0 45px 0;
   text-shadow: rgb(255, 255, 255) 0px 1px 0px;
@@ -241,6 +292,11 @@ article {
 .article-meta .article-tags a {
   color: #0074a6;
   text-shadow: none;
+}
+@media all and (max-width: 700px) {
+  .article-meta {
+    display: none;
+  }
 }
 
 .article-entry {
@@ -277,7 +333,7 @@ article {
 .article-entry pre,
 .article-entry .highlight {
   background: #333;
-  margin: 0 -20px;
+  margin: -10px 0 10px 0;
   padding: 15px 20px;
   border-style: solid;
   border-color: #ddd;
@@ -477,7 +533,11 @@ pre .javascript .function {
 /* 5. Components */
 /*-------------------------------------------------------------------------------------------*/
 
-/* Hexi only */
+
+/*-------------------------------------------------------------------------------------------*/
+/* 6. Hexi only */
+/*-------------------------------------------------------------------------------------------*/
+
 .toc-wrapper {
   float: right;
   border-radius: 4px;
@@ -495,6 +555,13 @@ pre .javascript .function {
 }
 .toc li {
   padding: 0 0 3px 0;
+}
+
+@media all and (max-width: 700px) {
+  .toc-wrapper {
+    float: none;
+    display: block;
+  }
 }
 
 /* div:surf */

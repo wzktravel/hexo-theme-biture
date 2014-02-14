@@ -1,6 +1,7 @@
 <div class="wrap">
   <div class="inner">
     <a class="brand" href="<%- config.root %>"><%= config.title %></a>
+    <a id="menu-toggle" href="#"><i class="fa fa-bars"></i></a>
 <ul class="nav-menu">
 <%  for (var i in theme.menu) { %>
 <%    if (Object.prototype.toString.call(theme.menu[i]) === '[object Object]' ) { %>
@@ -17,8 +18,7 @@
 <%  } %>
 </ul>
 
-<div style="display: inline-block; float:right; padding: 3px 0 0 0">
-<ul class="nav-menu">
+<ul class="nav-menu ext-menu">
 <%  for (var i in theme.extmenu) { %>
 <%    if ( Object.prototype.toString.call( theme.extmenu[i] ) === '[object Object]' ) { %>
   <li><a href="#"><%= i %></a>
