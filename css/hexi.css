@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------------------------------*/
+/* Hexi only */
+/*-------------------------------------------------------------------------------------------*/
+
+.toc-wrapper {
+  float: right;
+  border-radius: 4px;
+  background: #ddd;
+  border: 1px solid #ccc;
+  margin: 0 0 2em 2em;
+  padding: 15px 15px 15px 0;
+  font-size: .9em;
+  line-height: 1.6em;
+}
+.toc, .toc ol{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+.toc li {
+  padding: 0 0 3px 0;
+}
+
+@media all and (max-width: 700px) {
+  .toc-wrapper {
+    float: none;
+    display: block;
+  }
+}
+
+/* div:surf */
+.surf {
+  display: block;
+  margin: 35px 0 20px 0;
+  font-size: .9em;
+}
+.surf h1, .surf h2, .surf h3, .surf h4 {
+  margin: .8em 0 .2em 0;
+}
+.surf p {
+  margin: 5px 0 15px 0;
+}
+.surf ul {
+  margin: 0 0 5px 0;
+}
+.surf p + ul {
+  margin: -20px 0 5px 0;
+}
