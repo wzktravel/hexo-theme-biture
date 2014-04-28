@@ -18,13 +18,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
-  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial,Pr sans-serif;
   font-weight: normal;
   text-rendering: optimizelegibility;
 }
-h1 {font-size: 2em; margin: .8em 0 .2em 0}
-h2 {font-size: 1.8em; margin: 1.0em 0 .4em 0}
-h3 {font-size: 1.6em; margin: 1.2em 0 .6em 0}
+h1 {font-size: 2.2em; margin: .7em 0 .2em 0; letter-spacing: -1px;}
+h2 {font-size: 1.9em; margin: 1em 0 .4em 0; letter-spacing: -1px;}
+h3 {font-size: 1.7em; margin: 1.2em 0 .6em 0; letter-spacing: -1px;}
 h4 {font-size: 1.4em; margin: 1.4em 0 .8em 0}
 h5 {font-size: 1.2em; margin: 1.6em 0 1.0em 0}
 h6 {font-size: 1em; margin: 1.8em 0 1.2em 0}
@@ -250,12 +250,12 @@ ul.ext-menu {
 }
 
 #main-content p {
-  margin: 0 0 25px 0;
+  margin: 0 0 20px 0;
 }
 #main-content p + pre,
 #main-content p + figure,
 #main-content p + blockquote {
-  margin: -15px 0 25px 0;
+  margin: -10px 0 20px 0;
 }
 
 pre + pre, pre + figure, pre + blockquote,
@@ -310,11 +310,15 @@ article {
 .article-title a, .article-title a:visited {
   color: #222;
 }
+.article-title h1 {
+  margin: 20px 0;
+}
 
 /* Youtube, other video container */
 .article-entry .video-container {
   position: relative;
   padding-top: 56.25%;
+  margin: 20px 0;
   height: 0;
   overflow: hidden;
 }
@@ -326,7 +330,7 @@ article {
   left: 0;
   width: 100%;
   height: 100%;
-  margin-top: 0;
+  margin: 0;
 }
 
 /* Code, Pre [landscape](http://goo.gl/hnwXeD) */
