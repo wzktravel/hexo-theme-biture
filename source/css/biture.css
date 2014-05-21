@@ -107,7 +107,7 @@ blockquote footer {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #bbb;
-  background: #333;
+  background: #494949;
   text-align: center;
   font-size: 12px;
   color: #eee;
@@ -116,7 +116,7 @@ blockquote footer {
   color: #ccc;
 }
 #header a:hover {
-  color: #23dbdb;
+  color: #f60;
 }
 
 .brand {
@@ -147,7 +147,7 @@ ul.nav-menu ul.sub-menu {
   display: inline-block;
   margin: 0;
   padding: 0;
-  background: #333;
+  background: #494949;
 }
 ul.nav-menu ul.sub-menu li {
   list-style-type: none;
@@ -155,14 +155,14 @@ ul.nav-menu ul.sub-menu li {
   width: 100%;
   padding: 5px 0px 5px 15px;
   border-bottom: 1px dotted #888;
-  background: #333;
+  background: #494949;
   white-space: nowrap;
 }
 ul.sub-menu li:hover {
   background-color: #000 !important;
 }
 ul.sub-menu > li:first-child {
-  border-top: 3px solid #23dbdb;
+  border-top: 3px solid #F60;
 }
 
 /* Make the parent of sub-menu relative */
@@ -220,7 +220,7 @@ ul.ext-menu {
     padding: 0;
   }
   ul.sub-menu li:hover {
-    background-color: #333 !important;
+    background-color: #494949 !important;
   }
 }
 
@@ -244,9 +244,8 @@ ul.ext-menu {
 #main-content a:hover {
   border-radius: 4px;
   box-shadow: #258fb8 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
-  background: #000;
-  color: #23dbdb;
-  text-shadow: none;
+  background: #494949;
+  color: #f60;
 }
 
 #main-content p {
@@ -267,8 +266,9 @@ blockquote + pre, blockquote + figure, blockquote + blockquote
 
 article {
   margin: 0 0 45px 0;
-  text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
+
+
 
 .article-meta .date {
   display: block;
@@ -312,6 +312,7 @@ article {
 }
 .article-title h1 {
   margin: 20px 0;
+  text-shadow: #ccc 1px 1px 0px;
 }
 
 /* Youtube, other video container */
@@ -336,7 +337,7 @@ article {
 /* Code, Pre [landscape](http://goo.gl/hnwXeD) */
 .article-entry pre,
 .article-entry .highlight {
-  background: #333;
+  background: #494949;
   margin: -10px 0 10px 0;
   padding: 15px 20px;
   border-style: solid;
@@ -416,7 +417,7 @@ article {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #333;
+  background: #494949;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -442,7 +443,7 @@ article {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #333;
+  background: #494949;
   color: #999;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;

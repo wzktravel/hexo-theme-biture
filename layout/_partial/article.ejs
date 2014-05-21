@@ -20,6 +20,7 @@
       <div class="article-entry">
         <% if (item.excerpt && index){ %>
           <%- item.excerpt %>
+          <a href="<%- item.link %>"><%- theme.excerpt_link %></a>
         <% } else { %>
           <%- item.content %>
         <% } %>
