@@ -13,12 +13,12 @@ body {
   text-align: center;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: #444;
+  color: #222;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5em;
-  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial,Pr sans-serif;
+  line-height: 1.6em;
+  font-family: 'Varela Round', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-rendering: optimizelegibility;
 }
@@ -30,10 +30,10 @@ h5 {font-size: 1.2em; margin: 1.6em 0 1.0em 0}
 h6 {font-size: 1em; margin: 1.8em 0 1.2em 0}
 
 a {
-  transition: 0.5s;
+  transition: 0.3s;
 }
-a, a:visited, a:hover {
-  color: #0074a6; /* block-background-text-normal */
+a, a:visited{
+  color: rgb(33, 143, 211); /* block-background-text-normal */
   text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ ul.sub-menu li:hover {
   background-color: #000 !important;
 }
 ul.sub-menu > li:first-child {
-  border-top: 3px solid #F60;
+  border-top: 3px solid #f60;
 }
 
 /* Make the parent of sub-menu relative */
@@ -244,8 +244,8 @@ ul.ext-menu {
 #main-content a:hover {
   border-radius: 4px;
   box-shadow: #258fb8 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
-  background: #494949;
-  color: #f60;
+  background: rgb(33, 143, 211);
+  color: #eee;
 }
 
 #main-content p {
@@ -312,7 +312,7 @@ article {
 }
 .article-title h1 {
   margin: 20px 0;
-  text-shadow: #ccc 1px 1px 0px;
+  text-shadow: #ccc 1px 1px 2px;
 }
 
 /* Youtube, other video container */
