@@ -11,19 +11,19 @@ body {
   padding: 0px;
   background-color: #eee;
   text-align: center;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Lantinghei TC', 'Hiragino Kaku Gothic Pro', 'Microsoft Jhenghei', sans-serif;
   font-size: 16px;
-  color: #222;
+  color: #444;
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.6em;
-  font-family: 'Varela Round', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Myriad Pro', 'PT Sans', 'Lucida Grande', 'Hiragino Sans GB', 'Lantinghei TC', 'Hiragino Kaku Gothic Pro', 'Microsoft Jhenghei', sans-serif;
   font-weight: normal;
   text-rendering: optimizelegibility;
 }
-h1 {font-size: 2.2em; margin: .7em 0 .2em 0; letter-spacing: -1px;}
-h2 {font-size: 1.9em; margin: 1em 0 .4em 0; letter-spacing: -1px;}
+h1 {font-size: 2.3em; margin: .8em 0 .2em 0; letter-spacing: -1px;}
+h2 {font-size: 2em; margin: 1em 0 .4em 0; letter-spacing: -1px;}
 h3 {font-size: 1.7em; margin: 1.2em 0 .6em 0; letter-spacing: -1px;}
 h4 {font-size: 1.4em; margin: 1.4em 0 .8em 0}
 h5 {font-size: 1.2em; margin: 1.6em 0 1.0em 0}
@@ -33,7 +33,7 @@ a {
   transition: 0.3s;
 }
 a, a:visited{
-  color: rgb(33, 143, 211); /* block-background-text-normal */
+  color: #08c; /* block-background-text-normal */
   text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ blockquote footer {
   right: 0;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 3px 0;
   border-bottom: 1px solid #bbb;
   background: #494949;
   text-align: center;
@@ -227,7 +227,7 @@ ul.ext-menu {
 .tagcloud a {
   padding: 3px 5px;
   display: inline-block;
-  color: #333;
+  color: #444;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -244,7 +244,7 @@ ul.ext-menu {
 #main-content a:hover {
   border-radius: 4px;
   box-shadow: #258fb8 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
-  background: rgb(33, 143, 211);
+  background: #08c;
   color: #eee;
 }
 
@@ -264,11 +264,10 @@ blockquote + pre, blockquote + figure, blockquote + blockquote
   margin: 15px 0;
 }
 
+/* Article */
 article {
   margin: 0 0 45px 0;
 }
-
-
 
 .article-meta .date {
   display: block;
@@ -290,7 +289,7 @@ article {
   font-size: .7em;
 }
 .article-meta .article-tags a {
-  color: #0074a6;
+  color: #08c;
   text-shadow: none;
 }
 @media all and (max-width: 700px) {
@@ -303,6 +302,12 @@ article {
   margin: 15px 0 35px 0;
   text-align:justify !important;
 }
+
+.article-entry a {
+  color: #444;
+  border-bottom: 1px dashed #1d8cbd;
+}
+
 .article-comment {
   padding: 30px 0 0 0;
 }
@@ -344,7 +349,7 @@ article {
   border-color: #ddd;
   border-width: 1px 0;
   overflow: auto;
-  color: #ccc;
+  color: #333;
   line-height: 22.400000000000002px;
   font-size: 14px;
   text-shadow: none;
