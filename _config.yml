@@ -20,4 +20,5 @@ fancybox: true
 
 # Miscellaneous
 google_analytics:
+google_universal_analytics:
 rss:
