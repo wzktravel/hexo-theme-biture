@@ -2,14 +2,13 @@
 menu:
   home: /
   dropdown menu:
-    google: //google.com/
-    yahoo:  //yahoo.com/
+    google: //www.google.com/
 
 extmenu:
-  github: //github.com/kywk/
+  github: //github.com/wzktravel/
   hexo: //zespia.tw/hexo/
   theme:
-    biture: //github.com/kywk/hexo-theme-biture
+    biture: //github.com/wzktravel/hexo-theme-biture
     landscape: //github.com/tommy351/hexo-theme-landscape
     light: //github.com/tommy351/hexo-theme-light
 
@@ -19,6 +18,11 @@ excerpt_link: Read More
 fancybox: true
 
 # Miscellaneous
-google_analytics:
-google_universal_analytics:
-rss:
+# google_analytics:
+# google_universal_analytics:
+# rss:
+
+# duoshuo
+duoshuo_shortname: wzktravel
+
+
