@@ -1,8 +1,8 @@
 # hexo-theme-biture
 
-A single column, widget-less minimalist theme for [Hexo], based on [Pure] css framework.
+A single column, widget-less minimalist theme for [Hexo], based on [Pure] css framework, forked from https://github.com/kywk/hexo-theme-biture
 
-Preview: [live demo](http://kywk.github.io/hexo-theme-biture) / [kywk.life](http://kywk.github.io/)
+Preview: http://wzktravel.github.io/
 
 
 ## Installation
@@ -10,7 +10,7 @@ Preview: [live demo](http://kywk.github.io/hexo-theme-biture) / [kywk.life](http
 ### Install
 
 ``` bash
-$ git clone https://github.com/kywk/hexo-theme-biture.git themes/biture
+$ git clone https://github.com/wzktravel/hexo-theme-biture.git themes/biture
 ```
 
 ### Enable
