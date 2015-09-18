@@ -6,11 +6,7 @@ menu:
 
 extmenu:
   github: //github.com/wzktravel/
-  hexo: //zespia.tw/hexo/
-  theme:
-    biture: //github.com/wzktravel/hexo-theme-biture
-    landscape: //github.com/tommy351/hexo-theme-landscape
-    light: //github.com/tommy351/hexo-theme-light
+  hexo: //zespia.tw/hexo/ 
 
 # Content
 excerpt_link: Read More
