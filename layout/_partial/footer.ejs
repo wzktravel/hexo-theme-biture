@@ -1,11 +1,9 @@
 <div class="wrap">
   <div class="inner" style="text-align: center">
     <% if (config.author){ %>
-    &copy; <%= new Date().getFullYear() %> <%= config.author %> All Rights Reserved
+    &copy; <%= new Date().getFullYear() %> <a class="copyright" target="_blank" href="<%= config.url %>"><%= config.author %></a>
     <% } else { %>
-    &copy; <%= new Date().getFullYear() %> <%= config.title %> All Rights Reserved
+    &copy; <%= new Date().getFullYear() %> <a class="copyright" target="_blank" href="<%= config.url %>"><%= config.title %></a>
     <% } %>
-
-    / <a href="https://github.com/wzktravel/hexo-theme-biture">biture</a> for <a href="http://zespia.tw/hexo/">hexo</a>
   </div>
 </div>

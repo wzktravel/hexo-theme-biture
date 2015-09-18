@@ -587,3 +587,12 @@ blockquote {
 .article-entry {
     margin: 15px 0 25px 0;
 }
+#main-content a:hover {
+    background: #6084B3;
+}
+.bitpager a {
+    padding: 5px 10px !important;
+}
+.copyright {
+    color: #555 !important;
+}
