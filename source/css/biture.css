@@ -584,3 +584,6 @@ blockquote {
     margin: 0 0 10px 0;
     padding: 8px 15px;
 }
+.article-entry {
+    margin: 15px 0 25px 0;
+}
