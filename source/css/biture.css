@@ -570,6 +570,7 @@ table td, table th {
 table th {
     background: #C7C7C7;
     color: #036;
+    min-width: 100px;
 }
 body {
     font-family: Verdana,Arial,Helvetica,sans-serif;
