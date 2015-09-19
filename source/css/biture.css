@@ -574,6 +574,12 @@ table th {
 body {
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
+#header {
+    z-index: 2;
+}
+ul.nav-menu li ul.sub-menu {
+    left: 10px;
+}
 .pure-g [class *="pure-u"] {
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
@@ -586,6 +592,10 @@ blockquote {
 }
 .article-entry {
     margin: 15px 0 25px 0;
+}
+.article-entry code {
+    background: #D3D3D3;
+    padding: 5px 5px 2px 5px;
 }
 #main-content a:hover {
     background: #6084B3;
