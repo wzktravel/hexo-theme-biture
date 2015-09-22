@@ -2,7 +2,7 @@
   <div class="pure-g">
 
     <!-- article: meta -->
-    <div class="pure-u-1-12 article-meta">
+    <div class="pure-u-2-24 article-meta">
       <div class="date"><time datetime="<%= item.date.toDate().toISOString() %>">
         <div class="day"><%= item.date.format("D") %></div>
         <div class="month"><%=  item.date.format("MMM YYYY") %></div>
@@ -12,8 +12,9 @@
       </div>
     </div>
 
+
     <!-- article: main -->
-    <div class="pure-u-11-12">
+    <div class="pure-u-19-24">
       <header><div class="article-title">
         <%- partial('post/title') %>
       </div></header>
@@ -31,5 +32,14 @@
       </div></footer>
       <% } %>
     </div>
+
+    <!-- article: toc -->
+    <% if (!index) { %>
+    <aside class="pure-u-3-24 article-toc">
+      <div class="article-toc-inner">
+        <%- toc(item.content) %>
+      </div>
+    </aside>
+    <% } %>
   </div>
 </article>

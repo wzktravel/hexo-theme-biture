@@ -607,3 +607,28 @@ blockquote {
 .copyright {
     color: #555 !important;
 }
+
+.article-toc {
+    position: absolute;
+    letter-spacing: 0px;
+    height: 100%;
+    line-height: 1.5em;
+    opacity: .7;
+    margin-left: 20px;
+}
+.article-toc ol {
+    list-style: none; 
+    margin: 0px 0 0px -20px !important;
+}
+.article-toc a {
+    color: #2C2C2C;
+}
+.article-toc a:visited {
+    color: #2C2C2C;
+}
+.article-toc-inner {
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
