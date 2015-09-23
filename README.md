@@ -38,11 +38,9 @@ menu:
 
 extmenu:
   github: //github.com/
-  hexo: //zespia.tw/hexo/
+  hexo: //hexo.io/zh-cn/
   theme:
-    Pithiness:  //github.com/okoala/hexo-theme-pithiness
-    Phase:  //github.com/tommy351/hexo-theme-phase
-    Collect:  //github.com/beforeload/hexo-theme-collect
+    Pithiness:  //github.com/okoala/hexo-theme-pithiness 
 
 rss:
 
@@ -62,6 +60,17 @@ favicon: /favicon.png
 - **fancybox** - KEEP IT 'true'
 - **google_analytics** - Google Analytics ID
 
+## toc
+在文章页面增加toc(table of contents)
+使用方法：
+1. 在`_config.yml`中添加`toc: true`
+1. 每个页面中可以手动关闭, `toc: off`
+``` yml
+title: 日志追查总结
+date: 2015-09-10 20:03:00
+tags: [shell, log, hive, sql]
+toc: off
+```
 
-[Hexo]: http://zespia.tw/hexo/
+[Hexo]: https://hexo.io/
 [Pure]: http://purecss.io/
