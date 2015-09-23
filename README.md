@@ -64,7 +64,9 @@ favicon: /favicon.png
 在文章页面增加toc(table of contents)
 使用方法：
 1. 在`_config.yml`中添加`toc: true`
+
 1. 每个页面中可以手动关闭, `toc: off`
+
 ``` yml
 title: 日志追查总结
 date: 2015-09-10 20:03:00
