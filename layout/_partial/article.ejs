@@ -35,7 +35,7 @@
 
     <!-- article: toc --> 
     
-    <% if (!index && config.toc && !(item.toc)) { %>
+    <% if (!index && config.toc && (item.toc != "off")) { %>
     <aside class="pure-u-3-24 article-toc">
       <div class="article-toc-inner">
         <%- toc(item.content) %>
