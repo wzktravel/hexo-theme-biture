@@ -632,3 +632,6 @@ blockquote {
     overflow-y: auto;
     height: 100%;
 }
+#header {
+    position: absolute;
+}
